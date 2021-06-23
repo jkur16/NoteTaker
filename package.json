@@ -1,10 +1,11 @@
 {
   "name": "NoteTaker",
   "version": "1.0.0",
-  "description": "",
+  "description": "For this challenge, I was tasked with creating an application called Note Taker that can be used to write and save notes. The app uses an Express.js back end and will save and retrieve user generated note data from a JSON file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   "homepage": "https://github.com/jkur16/NoteTaker#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
